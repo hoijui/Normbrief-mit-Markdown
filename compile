@@ -1,0 +1,25 @@
+#!/bin/sh
+
+# change to this scripts directory
+PREVIOUS_DIR="$(pwd)"
+cd "$(dirname "$0")"
+THIS_DIR="$(pwd)"
+cd "${PREVIOUS_DIR}"
+
+(cat Muster-Normbrief.md \
+	&& echo "\n\n<style>@import url('file://${THIS_DIR}/Normbrief DIN 5008.css');</style>\n") \
+	| pandoc --standalone -t html \
+	> Muster-Normbrief-pandoc.html
+
+cat Muster-Normbrief.md \
+	| pandoc --standalone -t latex \
+	-o Muster-Normbrief-pandoc.pdf
+
+exit 0
+
+	| iconv -t utf-8 \
+	| iconv -f utf-8 \
+	| sed \
+		-e 's/ä/\&auml;/g' \
+		-e 's/ü/\&uuml;/g' \
+		-e 's/ö/\&ouml;/g' \
