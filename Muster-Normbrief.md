@@ -38,8 +38,7 @@ Beim Einsatz von MultiMarkdown, werden auch Tabellen und Fußnoten[^Fußnote] un
  :----------------------- | :---: | ----------: 
  Überschriften            | 3     |       60,00
  Listen                   | 4     |       40,00
-
- Gesamt:                 ||              100,00
+ **Gesamt**               |       |      100,00
 
 ##### Zwischenüberschrift mit gleicher Schriftgröße
 
@@ -50,6 +49,7 @@ Natürlich funktionieren auch Bilder. Bei MultiMarkdown sogar mit Bildunterschri
 > Mit freundlichen Grüßen  
 >  
 > Max Absender
+
 
 PS: Weiterer Text folgt hier
 
