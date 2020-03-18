@@ -34,6 +34,11 @@ Die CSS-Datei funktioniert in vielen Programmen. Bei den meisten muss diese ledi
 * **Coda 2** (siehe [unten](#programme-ohne-stylesheet-auswahl))
 * **nvALT** (siehe [unten](#programme-ohne-stylesheet-auswahl))
 
+### Linux-Programme ###
+
+* **Pandoc**
+	Um den brief in HTML oder PDF zu konvertieren.
+
 #### Programme ohne Stylesheet-Auswahl ####
 
 Einigen Programmen wie Byword (Mac) oder DownMarker (Windows) kann man das Stylesheet unterjubeln, indem man folgende Zeile an das Ende des Markdown-Dokuments anfügt.
