@@ -50,7 +50,6 @@ Natürlich funktionieren auch Bilder. Bei MultiMarkdown sogar mit Bildunterschri
 >  
 > Max Absender
 
-
 PS: Weiterer Text folgt hier
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
